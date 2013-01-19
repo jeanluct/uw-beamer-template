@@ -1,6 +1,6 @@
-This is a Beamer template set up to look pretty decent and have a
-University of Wisconsin theme.  It is, of course, better than the
-existing Powerpoint templates.
+Madison is a Beamer template set up to look pretty decent and have a
+University of Wisconsin - Madison theme.  It is, of course, better
+than the existing Powerpoint templates.
 
 The easiest way to install this theme is to just dump the *.sty files
 into the same directory as your tex source.
@@ -11,7 +11,7 @@ the following:
 \documentclass{beamer}
 
 
-\usetheme{Wisconsin}
+\usetheme{Madison}
 \begin{document}
 %% Slides
 \end{document}
@@ -26,7 +26,7 @@ The theme currently has two options:
   * compactlogo  - Compact title logo (takes less vertical space)
 
 Options are specified as:
-  \usetheme[white]{Wisconsin}
+  \usetheme[white]{Madison}
 
 Other suggested packages:
 * tikz (pgf, for diagrams)
@@ -61,7 +61,7 @@ the beginning of your presentation (after \begin{document}):
 \newcommand*{\Highlight}{\rlap{\textcolor{HighlightBackground}{\rule[-\highlightdepth]{\linewidth}{\highlightheight}}}}
 
 
-HighlightBackground is defined by the Wisconsin theme.  This
+HighlightBackground is defined by the Madison theme.  This
 snippet allows you to include source code listings in the
 following way:
 
