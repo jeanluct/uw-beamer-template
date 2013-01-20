@@ -55,15 +55,23 @@
 % This logo appears below the date on the title page.
 \ifbeamer@compactlogo
   \ifbeamer@white
-    \titlegraphic{\includegraphics[height=1.5cm]{UW_main_compact_white.pdf}}
+    \titlegraphic{%
+      \href{http://www.wisc.edu}
+      {\includegraphics[height=1.5cm]{UW_main_compact_white.pdf}}}
   \else
-    \titlegraphic{\includegraphics[height=1.5cm]{UW_main_compact.pdf}}
+    \titlegraphic{%
+      \href{http://www.wisc.edu}
+      {\includegraphics[height=1.5cm]{UW_main_compact.pdf}}}
   \fi
 \else
   \ifbeamer@white
-    \titlegraphic{\includegraphics[height=3cm]{UW_main_white.pdf}}
+    \titlegraphic{%
+      \href{http://www.wisc.edu}
+      {\includegraphics[height=3cm]{UW_main_white.pdf}}}
   \else
-    \titlegraphic{\includegraphics[height=3cm]{UW_main.pdf}}
+    \titlegraphic{%
+      \href{http://www.wisc.edu}
+      {\includegraphics[height=3cm]{UW_main.pdf}}}
   \fi
 \fi
 
