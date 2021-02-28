@@ -31,11 +31,6 @@ Options are specified as:
   \usetheme[white]{Madison}
 ```
 
-Other suggested packages:
-* tikz (pgf, for diagrams)
-* listings (for source code listings)
-* fontspec (if using xetex)
-
 # License
 
 ## Original release
