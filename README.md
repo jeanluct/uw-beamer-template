@@ -38,15 +38,15 @@ Other suggested packages:
 
 # License
 
-# Original release
+## Original release
 
 Original author: Tristan Ravitch (travitch@cs.wisc.edu)
 Initial Release: June 2009
 Public Domain
 
-# This release
+## This release
 
-This release of the UW Beamer template is released under the MIT License.
+This version of the UW Beamer template is released under the MIT License.
 
 Copyright 2021 Jean-Luc Thiffeault
 
